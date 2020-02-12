@@ -5,10 +5,8 @@ class Application
     resp = Rack::Response.new
     time = Time.now
     binding.pry
-    if
 
-    end
-    resp.finish
+    # resp.finish
   end
 
 end
